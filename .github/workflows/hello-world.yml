@@ -8,5 +8,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Echo text
-          uses: echo "Hello, world!"
+          run: echo "Hello, world!"
 
